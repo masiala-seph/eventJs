@@ -1,0 +1,28 @@
+#form {
+    display: none;
+}
+#active{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.create-element{
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.container-result{
+    display: flex;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin: 8px;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+}
